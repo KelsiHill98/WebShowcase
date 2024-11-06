@@ -14,7 +14,7 @@
         <div>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experiences">Experiences</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -37,15 +37,18 @@
         </div>
     </nav>
     <section id="profile">
-        <div class="section__pic container">
-            <img src="./assests/profile-pic.png" alt="Kelsi Hill profile picture"/>
+        <div class="section__pic-container">
+            <img src="./assests/unnamed.jpg" alt="Kelsi Hill profile picture"/>
     </div>
     <div class="section__text">
         <p class="section__text__p1">Hello I'm</p>
         <h1 class="title">Kelsi Hill</h1>
         <p class="section__text__p2">Frontend Developer</p>
         <div class="btn-container">
-            <button class="btn btn-color-2"onclick="window.open('./assests/Kelsi.Hill- Resume.pdf')">
+            <button 
+            class="btn btn-color-2"
+            onclick="window.open('./assests/Kelsi.Hill- Resume.pdf')"
+            >
                 Download CV
             </button>
             <button class="btn btn-color-1"onclick="location.href='./#contact'">
@@ -59,13 +62,57 @@
                     class="icon" 
                     onclick="location.href='https://www.linkedin.com/in/kelsihill16'"
                     />
-                    <img 
+                <img 
                     src="./assests/github.png" 
                     alt="My Github Profile" 
                     class="icon" 
-                    onclick="location.href='https://github.com/KelsiHill98'"/>
+                    onclick="location.href='https://github.com/KelsiHill98'"
+                    />
             </div>
         </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1"> Get To Know More</p>
+        <h1 class="title"> About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img 
+                src="./assests/gradpic.jpg" 
+                alt="Profile picture"
+                class="about-pic"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assests/experience.png" 
+                        alt="Experience icon"
+                        class="icon"
+                        />
+                        <h3>Experience</h3>
+                        <p>2+ years <br />Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                    <img 
+                        src="./assets/education.png" 
+                        alt="Education icon"
+                        class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelors Degree<br /> B.Sc Bachelors Degree</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>
+                    Lorem ipsum
+                </p>
+            </div>
+        </div>
+    </div>
+    <img src="./assests/arrow.png" 
+         alt="Arrow icon"
+         class="icon"
+         onclick="location.href='./#experience'"/>
     </section>
     <script src="script.js"></script>
 </body>
